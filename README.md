@@ -1,6 +1,6 @@
 # COMBOO
 
-**Constrained Multi-objective Bayesian Optimization through Optimistic Constraints Estimation**  
+\hypref{https://arxiv.org/abs/2411.03641}{Constrained Multi-objective Bayesian Optimization through Optimistic Constraints Estimation}
 This repository contains the experimental code for COMBOO, as described in the paper:
 
 > Li, Diantong, Fengxue Zhang, Chong Liu, and Yuxin Chen. “Constrained Multi-objective Bayesian Optimization through Optimistic Constraints Estimation.” *arXiv preprint arXiv:2411.03641*, 2024.
