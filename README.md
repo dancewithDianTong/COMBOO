@@ -21,12 +21,22 @@ COMBOO is designed to perform constrained multi-objective Bayesian optimization 
 If you use this repository, please cite the paper using the following BibTeX entry:
 
 ```bibtex
-@article{li2024constrained,
-  title={Constrained Multi-objective Bayesian Optimization through Optimistic Constraints Estimation},
-  author={Li, Diantong and Zhang, Fengxue and Liu, Chong and Chen, Yuxin},
-  journal={arXiv preprint arXiv:2411.03641},
-  year={2024}
+@InProceedings{pmlr-v258-li25a,
+  title = 	 {Constrained Multi-objective Bayesian Optimization through Optimistic Constraints Estimation},
+  author =       {Li, Diantong and Zhang, Fengxue and Liu, Chong and Chen, Yuxin},
+  booktitle = 	 {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {370--378},
+  year = 	 {2025},
+  editor = 	 {Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz},
+  volume = 	 {258},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {03--05 May},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v258/main/assets/li25a/li25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v258/li25a.html},
+  abstract = 	 {Multi-objective Bayesian optimization has been widely adopted in scientific experiment design, including drug discovery and hyperparameter optimization. In practice, regulatory or safety concerns often impose additional thresholds on certain attributes of the experimental outcomes. Previous work has primarily focused on constrained single-objective optimization tasks or active search under constraints. The existing constrained multi-objective algorithms address the issue with heuristics and approximations, posing challenges to the analysis of the sample efficiency. We propose a novel constrained multi-objective Bayesian optimization algorithm \textbf{COMBOO} that balances active learning of the level-set defined on multiple unknowns with multi-objective optimization within the feasible region. We provide both theoretical analysis and empirical evidence, demonstrating the efficacy of our approach on various synthetic benchmarks and real-world applications.}
 }
+
 ```
 
 ## Environment
